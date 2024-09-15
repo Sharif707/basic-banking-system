@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button,input{
+    border: none;
+}
+
+.bank-details{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   
+    max-width: 85%;
+    margin: 100px auto;
+    
+
+}
+.banner-section{
+    
+
+    margin-top: 200px;
+}
+.banner-section > h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+.bank-details .box{
+    flex-basis: 33%;
+    
+   
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 16px;
+    color: white;
+}
+#deposit-box{
+    background-color: rgb(248, 113, 113);
+}
+#withdraw-box{
+    background-color: rgb(79, 70, 229);
+    
+}
+#balance-box{
+    background-color: rgb(5, 150, 105);
+
+}
+
+.bank-details .box > h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+
+}
+.bank-details .box > p {
+    font-size: 3rem;
+}
+.submit-box{
+
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    gap: 300px;
+
+   
+}
+.submit-box > h3{
+    font-size: 1.4rem;
+}
+.submit-box input {
+    font-size: 1.2rem;
+    border-radius: 8px;
+    border: 2px solid rgb(156, 163, 175);
+    padding: 8px 4px;
+    display: block;
+    margin: 20px 0;
+
+}
+.submit-box button{
+  
+    padding: 8px 12px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    
+}
+.deposit-area button {
+    background-color: rgb(245, 158, 11);
+}
+.withdraw-area button {
+    background-color:  rgb(248, 113, 113)
+}
